@@ -1,0 +1,386 @@
+html{
+    transition: all .7;
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(231, 253, 253);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+    width:100%;
+}
+
+img{
+    width: 100px;
+}
+
+
+header{
+    
+    display: flex;
+    justify-content: space-between;
+   
+    margin-bottom: .5rem;
+    align-items: center;
+    position: fixed;
+   
+    background-color:rgb(231, 253, 253) ;
+    z-index: 1000;
+    top:0;
+    left:0;
+    right:0;
+    width:100%;
+    
+    padding:1rem;
+
+}
+
+
+header .fa-bars{
+    font-size: 20px;
+   color:orangered;
+}
+
+header .fa-shopping-cart{
+    background-color: orangered;
+    color: aliceblue;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right:2rem;
+}
+
+header .logo-title{
+font-weight: 800;
+font-size: 20px;
+color: rgb(58, 55, 55);
+
+}
+
+.main{
+    height: 100vh;
+    margin-top: 5rem;
+    margin-bottom: 11rem;
+    
+   
+}
+.main .images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    
+
+}
+
+
+
+.main .images img{
+    width: 70%;
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    left: 30px;
+
+}
+
+.main .text{
+    text-align: center;
+    font-size: 26px;
+    width: 60%;
+    font-weight: 900;
+    margin: auto;
+}
+
+
+.want-more{
+ 
+    display: flex;
+    position: relative;
+    margin-top: 2rem;
+    padding: .5rem;
+}
+.want-more img{
+  width:150px;
+  position: relative;
+  right:40px;
+  bottom:20px;
+}
+
+.want-more .text{
+    font-size: 20px;
+    margin-left: 10px;
+    position: absolute;
+    left: 5rem;
+    text-align: right;
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:400;
+    
+
+}
+
+.want-more .fa-arrow-down{
+
+    margin-left: 6rem;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .1);
+    width: 40px;
+    border-radius: 30px;
+    position:relative;
+    right:50px;
+}
+
+.detail-one{
+    display: flex;
+    width: 100%;
+    margin: 2rem 0;
+    
+
+}
+
+.detail-one .text{
+    font-size: 16px;
+    width: 130px;
+    text-align: right;
+
+}
+
+
+.detail-one .no{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ text-align: center;  
+ margin-bottom: .5rem;
+}
+
+.detail-one img{
+    width: 200px;
+    margin-left: 4rem;
+}
+
+.side-pic-1{
+    position: absolute;
+
+    
+    top: 30rem;
+    margin-left:17rem;
+    transform: rotate(-20deg);
+}
+
+.detail-two{
+    display: flex;
+    position: relative;
+    top:2rem;
+    margin: 5rem 1rem;
+    justify-content:space-between;
+    
+
+}
+
+
+.detail-two .text{
+    font-size: 16px;
+    width: 130px;
+    text-align: right;
+
+}
+
+.detail-two .no{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ text-align: center;  
+ margin-bottom: .5rem;
+}
+
+.detail-two img{
+    width: 120px;
+    margin-right: 2rem;
+}
+
+
+.products-body{
+
+ 
+    height: 100vh;
+  
+   position:absolute;
+   margin: 1rem;
+   top:80rem;
+   
+}
+
+
+.products-body .title{
+    color: orangered;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.products-body h1{
+    
+    
+ 
+    color: rgb(63, 62, 62);
+    font-size: 45px;
+
+   
+margin-bottom: 1rem;
+    
+    
+}
+
+.products-body .text{
+    
+    padding-right: .7rem;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(49, 48, 48);
+    margin-bottom: 1rem;
+}
+
+
+.products-body .images{
+   
+    height: 400px;
+    margin-bottom: 4rem;
+margin-left: 4rem;
+}
+
+.products-body .images img{
+width: 300px;
+
+}
+
+.swiper-container{
+    margin-top: 20rem;
+    
+    width:100%;
+   
+   
+}
+
+.swiper-container .swiper-wrapper {
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+}
+
+.swiper{
+    display: flex;
+    padding: 1rem;
+    width: 80%;
+    background-color:rgb(231, 253, 254);
+    margin: 1rem;
+    flex-wrap:wrap;
+    border-radius: 20px;
+    height:150px;
+    z-index:1;
+  
+    align-items:center;
+    justify-content: space-between;
+    
+    
+
+ box-shadow:0 0 10px rgba(0, 0, 0, .3);
+ border-radius:20px;
+}
+
+.swiper-container .swiper-wrapper .swiper img{
+
+ width:120px;
+ border-radius: 20px;
+ height:150px;
+ box-shadow:0 0 10px rgba(0, 0, 0, .1);
+}
+
+.price-tags{
+  margin-right:2rem;
+  
+}
+.name{
+  font-weight:700;
+  text-transform: uppercase;
+  margin-bottom:1rem;
+}
+
+.price{
+  color:orangered;
+  margin-bottom:1rem;
+}
+.shop-now{
+  width:100px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  height:30px;
+  background:tomato;
+  border-radius:7px;
+  text-transform:uppercase;
+}
+
+nav{
+  position:absolute;
+  top:4rem;
+  width:100%;
+  padding:1rem 0;
+  left:0;
+  z-index:1000;
+  transition:all 1.2s;
+  clip-path:polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+.ac{
+  clip-path:polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+
+nav ul li a{
+  display:block;
+  color: white;
+  background:orangered;
+  padding:1rem;
+  margin-bottom:1rem;
+  
+  
+}
+
+.b{
+  width:60%;
+}
+
+.c{
+  width:40%;
+}
+
+.d{
+  width:20%;
+}
+.reveal{
+  position:relative;
+  transform: translateY(150px);
+  opacity:0;
+  transition:all 1s;
+}
+
+.bab{
+  transform:translateY(0);
+  opacity:1;
+}
